@@ -1,0 +1,54 @@
+.HomeContainer {
+  background-color: #152850;
+  height: 100vh;
+}
+.InsideContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.website_logo {
+  height: 40px;
+  width: 50px;
+  margin: 20px;
+}
+.logout {
+  background-color: transparent;
+  border: solid 1px white;
+  color: white;
+  height: 24px;
+  width: 60px;
+  margin: 20px;
+  cursor: pointer;
+}
+.tharun {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 80px;
+}
+.para {
+  font-family: 'roboto';
+  font-size: 18px;
+  font-weight: 800;
+  color: white;
+}
+@media (min-width: 700px) {
+  .para {
+    font-family: 'roboto';
+    font-size: 22px;
+    font-weight: 800;
+    color: white;
+  }
+}
+.digital_card {
+  height: 200px;
+  width: 280px;
+}
+@media (min-width: 700px) {
+  .digital_card {
+    height: 300px;
+    width: 400px;
+  }
+}

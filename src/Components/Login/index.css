@@ -1,0 +1,139 @@
+.container {
+  background-color: #183b56;
+  height: 100vh;
+  border: solid 1px #183b56;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.website_Login_Container {
+  background-color: #c3cad9;
+  width: 90vw;
+  height: 50vh;
+  border-radius: 08px;
+  display: flex;
+  justify-content: space-between;
+}
+@media (min-width: 700px) {
+  .website_Login_Container {
+    background-color: #c3cad9;
+    width: 60vw;
+    height: 70vh;
+    border-radius: 08px;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+.website_Login {
+  margin-top: 50px;
+  height: 200px;
+  width: 160px;
+}
+@media (min-width: 700px) {
+  .website_Login {
+    margin-top: 0px;
+    height: 400px;
+    width: 25vw;
+  }
+}
+.Second_Container {
+  background-color: white;
+  width: 60vw;
+  height: 50vh;
+  border-radius: 08px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+@media (min-width: 700px) {
+  .Second_Container {
+    background-color: white;
+    width: 30vw;
+    height: 70vh;
+    border-radius: 08px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+.welcomeHeading {
+  font-family: 'bree serif';
+  font-size: 20px;
+  margin-left: 14px;
+}
+@media (min-width: 700px) {
+  .welcomeHeading {
+    font-family: 'bree serif';
+    font-size: 30px;
+    margin-left: 14px;
+  }
+}
+.center {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+}
+label {
+  font-family: 'roboto';
+  font-size: 18px;
+  font-weight: 700;
+}
+@media (min-width: 700px) {
+  label {
+    font-family: 'roboto';
+    font-size: 18px;
+    font-weight: 700;
+  }
+}
+input {
+  height: 36px;
+  width: 150px;
+  font-size: 14px;
+  outline: none;
+  font-family: 'roboto';
+  margin-top: 10px;
+}
+@media (min-width: 700px) {
+  input {
+    height: 36px;
+    width: 300px;
+    font-size: 14px;
+    outline: none;
+    font-family: 'roboto';
+    margin-top: 10px;
+  }
+}
+.button {
+  height: 36px;
+  width: 150px;
+  font-size: 14px;
+  outline: none;
+  font-family: 'bree serif';
+  margin-top: 10px;
+  margin-left: 14px;
+  color: white;
+  background-color: #1565d8;
+  border: none;
+  cursor: pointer;
+}
+@media (min-width: 700px) {
+  .button {
+    height: 36px;
+    width: 300px;
+    font-size: 14px;
+    outline: none;
+    font-family: 'bree serif';
+    margin-top: 10px;
+    margin-left: 14px;
+    color: white;
+    background-color: #1565d8;
+    border: none;
+    cursor: pointer;
+  }
+}
+.error {
+  color: #ff0b37;
+  font-family: 'bree serif';
+  margin-left: 16px;
+  margin-top: 02px;
+}

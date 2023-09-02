@@ -1,0 +1,24 @@
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 70vh;
+  margin-top: 100px;
+}
+.not-found-img {
+  width: 400px;
+}
+.page {
+  font-family: 'roboto';
+  font-size: 22px;
+  color: #c3cad9;
+  font-weight: 800;
+  margin-bottom: 0px;
+  margin-top: 30px;
+}
+.we {
+  font-family: 'roboto';
+  font-size: 14px;
+  margin-bottom: 0px;
+}
